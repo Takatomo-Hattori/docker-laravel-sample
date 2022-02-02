@@ -1,0 +1,4 @@
+*使用方法・注意点
+var/www/htmlにマウントしている/sourceフォルダはdocker-compose upすると生成されるよ
+phpコンテナ内に入ってcreate-projectとかartisanコマンドをつかうよ
+create-projectするときはワークに設定されているディレクトリに直接作成してね（プロジェクト名を入れずに . で指定）もしプロジェクト名つけて作ったらvhost.confをいじってね
